@@ -8,6 +8,8 @@ Two datasets have been combined to train the model. One being a small dataset wi
 
 Another point to note about the labels is that the genres tagged for a movie are in their order of importance. The genres in these datasets were populated from imdb which collects genres from users. So if a movie is tagged with the following three genres Action, Comedy, Drama in the same order then it would mean that the most significant genre for the movie is the first genre listed that is, Action. Similarly, the second most significant genre would be comedy and the third would be drama.
 
+> Note: Please update the path of the dataset after downloading it from the link mentioned above 
+
 ## Data Preprocessing
 
 The movies in the combined dataset are tagged across 25 genres. I first visualize the genre distribution across movies. The distribution looks as follows:
